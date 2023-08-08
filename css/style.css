@@ -1,4 +1,4 @@
-@import url(/css/nullstyle.css);
+@import url(css/nullstyle.css);
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -39,7 +39,7 @@ body {
   margin-bottom: 40px;
 }
 .first-block__list li {
-  background: url(/img/icons/icon.png) 0 0 no-repeat;
+  background: url(img/icons/icon.png) 0 0 no-repeat;
   padding-left: 35px;
   margin-bottom: 15px;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
