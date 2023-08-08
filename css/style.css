@@ -38,11 +38,20 @@ body {
   margin-bottom: 40px;
 }
 .first-block__list li {
-  background: url(../img/icons/icon.png) 0 0 no-repeat;
+  position: relative;
   padding-left: 35px;
   margin-bottom: 15px;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
   font-size: 20px;
+}
+.first-block__list li::before{
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  background-image: url(../img/icons/icon.png);
+  background-repeat: no-repeat;
+  left: 0;
 }
 .first-block__list li:last-child {
   margin-bottom: 0;
